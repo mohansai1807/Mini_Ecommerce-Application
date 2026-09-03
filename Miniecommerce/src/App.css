@@ -1,0 +1,32 @@
+main {
+  background:
+    radial-gradient(circle at 8% 0%, rgba(167, 243, 208, 0.42), transparent 28rem),
+    linear-gradient(135deg, #f7faf5 0%, #edf3ed 100%);
+}
+
+main > div {
+  position: relative;
+}
+
+article img {
+  background: #e8eee7;
+  transition: transform 300ms ease;
+}
+
+article:hover img {
+  transform: scale(1.035);
+}
+
+input::placeholder {
+  color: #94a39a;
+}
+
+select {
+  cursor: pointer;
+}
+
+@media (max-width: 639px) {
+  main {
+    padding-top: 1.5rem;
+  }
+}
